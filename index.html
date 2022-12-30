@@ -1,7 +1,19 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Nepali Khata</title>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-GQH6CCEXRB"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-GQH6CCEXRB");
+    </script>
     <meta charset="utf-8" />
     <meta
       name="viewport"
@@ -15,15 +27,15 @@
     <meta property="og:title" content="Nepali Khata" />
     <meta
       property="og:description"
-      content="Nepali Khata is and application which helps you track your financial transaction of any scale in the easiest way possible"
+      content="Nepali Khata is an application which helps you track your financial transaction of any scale in the easiest way possible"
     />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://www.nepalikhata.com/" />
     <meta
       property="og:image"
-      content="https://github.com/nepalikhata/nepalikhata.com/blob/main/images/bg01.jpg"
+      content="https://www.nepalikhata.com/images/bg01.jpg"
     />
-    <meta property="og:image:alt" content="Nepali Khata Cover Background" />
+    <meta property="og:image:alt" content="Nepali Khata Background" />
     <meta property="og:site_name" content="Nepali Khata" />
     <meta property="og:locale" content="en_US" />
     <meta itemprop="name" content="Nepali Khata" />
@@ -33,7 +45,7 @@
     />
     <meta
       itemprop="image"
-      content="https://github.com/nepalikhata/nepalikhata.com/blob/main/images/bg01.jpg"
+      content="https://www.nepalikhata.com/images/bg01.jpg"
     />
     <meta name="geo.placename" content="Nepal" />
     <meta name="geo.region" content="NP" />
@@ -53,24 +65,26 @@
     />
     <meta name="twitter:url" content="https://twitter.com/nepalikhata" />
     <meta name="twitter:creator" content="@nepalikhata" />
+    <title>Nepali Khata</title>
     <link rel="icon" href="/favicon.ico" />
     <link rel="stylesheet" href="assets/css/main.css" />
   </head>
   <body class="is-preload">
-    <!-- Header -->
     <header id="header">
       <h1>Nepali Khata</h1>
       <h2>Launching soon ✨</h2>
       <p>Tracking finance at your fingertips!</p>
     </header>
-
-    <!-- Signup Form -->
     <form id="signup-form" method="post" action="#">
-      <input type="email" name="email" id="email" placeholder="Email Address" />
+      <input
+        type="email"
+        required
+        name="email"
+        id="email"
+        placeholder="Email Address"
+      />
       <input type="submit" value="Sign Up" />
     </form>
-
-    <!-- Footer -->
     <footer id="footer">
       <ul class="icons">
         <li>
@@ -102,8 +116,6 @@
         <li>&copy; nepalikhata</li>
       </ul>
     </footer>
-
-    <!-- Scripts -->
     <script src="assets/js/main.js"></script>
   </body>
 </html>
